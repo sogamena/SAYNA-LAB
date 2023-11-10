@@ -1,0 +1,113 @@
+#apropos{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.contenu-apropos{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    text-align: justify;
+}
+
+.texte-apropos, .nom p{
+    color: white;
+}
+
+.zen{
+    font-family: 'zen';
+    color: white;
+}
+
+.image-apropos{
+    margin-left: 10%;
+}
+
+.image-apropos img{
+    width: 100%;
+}
+
+/* Style equipe */
+
+#equipe{
+    margin: 3% 0;
+    background: orange;
+    padding: 3% 0;
+}
+
+#equipe h3{
+    margin-left: 5%;
+    padding-bottom: 2%;
+}
+
+.equipe{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+
+.nom-equipe{
+    display: flex;
+    margin-left: 15%;
+}
+.nom-equipe img{
+    width: 100%;
+}
+
+.nom{
+    padding-top: 15%;
+    margin-left: 12%;
+    width: 100%;
+    text-align: center;
+}
+
+.contenu-confiance{
+    width: 90%;
+    margin: 0 auto;
+}
+.contenu-confiance h3{
+    padding-bottom: 2%;
+}
+#confiance{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.confiance img{
+    width: 50%;
+}
+
+.confiance:nth-of-type(4){
+    text-align: right;
+}
+
+.voyageurs p{
+    padding-right: 20%;
+    color: white;
+}
+
+.note{
+    font-size: 24px;
+}
+
+.contenu-contact{
+    background: orange;
+    padding: 3% 0;
+    margin: 5% 0;
+}
+
+#contact{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info-contact{
+    padding-top: 3%;
+}
+.num span{
+    font-size: 14px;
+    padding-left: 2%;
+}
+.num img{
+    position: absolute;
+    margin-top: 0.2%;
+}

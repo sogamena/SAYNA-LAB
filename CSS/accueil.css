@@ -1,0 +1,132 @@
+.accueil-compte{
+    background-image: url('../illustration/image/img5.png');
+    height: 100vh;
+    background-size: cover;
+}
+#compte{
+    width: 8%;
+    right: 5%;
+    margin-top: 0.3%;
+    position: absolute;
+}
+
+.compte{
+    display: flex;
+    justify-content: space-between;
+}
+
+.compte span{
+    color: white;
+    padding-top: 4%;
+    padding-left: 8%;
+    font-size: 10px;
+}
+
+#compte .compte img{
+    width: 25%;
+    float: right;
+}
+
+/* Style compte accueil */
+.contenu{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 28%;
+    text-align: justify;
+    color: white;
+}
+.zen{
+    font-family: 'zen';
+}
+
+#compteuser{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.compteuser{
+    width: 90%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 20% 40% 35%;
+}
+
+/* Menu sous accueil */
+
+.editer{
+    margin-left: 2%;
+}
+.editer:nth-of-type(1){
+    border-right: 2px solid #28bada;
+    height: 50%;
+}
+
+.editer ul li{
+    padding-top: 10%;
+}
+
+.editer:nth-of-type(2){
+    padding-left: 10%;
+}
+
+.editer:nth-of-type(3){
+    display: block;
+    justify-content: center;
+}
+.editer ul{
+    list-style: none;
+}
+
+.editer-photo{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.photo{
+    display: block;
+    justify-content: center;
+}
+
+.photo img{
+    width: 80%;
+}
+.compteuser >.editer, a, label, p{
+    color: white;
+}
+.editer a{
+    text-decoration: none;
+}
+.oblige{
+    position: absolute;
+    margin-top: -0.3%;
+    margin-left: -0.8%;
+    color: #28bada;
+}
+
+/* Style input */
+input{
+    border: 1px solid #28bada;
+    background: none;
+    width: 80%;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.marque, .marque a{
+    color: #28bada;
+}
+
+.mod{
+    margin-top: 5%;
+}
+
+.mod button{
+    background: #28bada;
+    padding: 2% 20%;
+    border: none;
+    border-radius: 8px;
+}
+
+

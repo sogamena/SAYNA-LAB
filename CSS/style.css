@@ -1,0 +1,343 @@
+/* importation font */
+@font-face {
+    font-family:'zen' ;
+    src: url('../font/ZenDots-Regular.ttf');
+}
+
+@font-face {
+    font-family:'roboto' ;
+    src: url('../font/Roboto-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ------------------ */
+body{
+    background: #141d25;
+    font-family: 'roboto';
+}
+
+.accueil{
+    background-image: url('../illustration/image/img1.png');
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+#nav{
+    display: grid;
+    grid-template-columns: 30% 62% 8%;
+    margin: 0 5%;
+    padding-top: 2%;
+}
+
+/* Réduire taille logo sayna*/
+.accueil-logo{
+    display: flex;
+}
+
+.accueil-logo img{
+    width: 50%;
+}
+/* Texte près logo */
+.accueil-logo h5, .logo-pied h5{
+    padding-left: 3%;
+    font-family: 'zen';
+    padding-top: 2%;
+    font-size: 14px;
+    color: antiquewhite;
+}
+
+.accueil-menu{
+    text-align: center;
+}
+
+.accueil-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.accueil-menu li{
+    padding-left: 5%;
+    padding-top: 2px;
+}
+.accueil-menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'zen';
+    font-size: 14px;
+}
+/* Style sign */
+
+#sign .sign{
+    text-align: right;
+}
+
+.sign a, .plus a{
+    text-decoration: none;
+}
+
+#sign .sign a{
+    background: orange;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: 'Verdana';
+}
+
+
+/* ------- */
+
+
+/* Sytyle principal accueil */
+
+#new{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 0 5%;
+    margin-top: 3%;
+    color: white;
+}
+
+.new img{
+    width: 100%;
+}
+
+.new h4{
+    font-family: 'zen';
+}
+
+.new:nth-of-type(2){
+    width: 90%;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+/* Best article 2 */
+
+#best{
+    display: grid;
+    grid-template-columns: 68% 30%;
+    margin-top: 2%;
+    background: orange;
+    padding: 4% 0;
+}
+
+#best .best-imgfond{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.fond{
+    background-size: cover;
+    height: 55vh;
+    margin-left: 20%;
+    border-radius: 8px;
+}
+
+.fond:nth-of-type(1){
+    background-image: url('../illustration/image/img3.png');
+    background-position: 50%;
+}
+
+.fond:nth-of-type(2){
+    background-image: url('../illustration/image/img4.png');
+    background-position: 51%;
+}
+
+.fond:nth-of-type(3){
+    background-image: url('../illustration/image/img5.png');
+    background-position: 55%;
+}
+
+.best:nth-of-type(2){
+    margin-left: 10%;
+}
+
+.fond h6{
+    color: white;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.plus{
+    background: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100%;
+    text-align: center;
+}
+
+.best{
+    width: 80%;
+    text-align: justify;
+    color: white;
+}
+
+/* Sur contributeur */
+
+
+
+#contributeur{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0 3%;
+}
+
+.contributeur-titre{
+    padding: 3% 0;
+    padding-left: 5%;
+    font-family: 'zen';
+    color: white;
+}
+
+.contributeur{
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.contributeur .profil{
+    width: 50%;
+}
+
+.ligne{
+    width: 90%;
+    border-bottom: 2px solid orange;
+    margin: 3% auto;
+}
+/* Flèche haut pied page */
+.arrowup{
+    position: absolute;
+    right: 0.5%;
+    margin-top: -4%;
+    height: 4%;
+    width: 4%;
+}
+.arrowup img{
+    width: 80%;
+}
+
+.arrowup img:hover{
+    transform: scale(1.2);
+}
+/* Fin */
+.nom-cont{
+    color: white;
+}
+
+.nom-cont span{
+    color: orange;
+}
+
+.etoile{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: space-around;
+    color: white;
+}
+
+.cont-description{
+    margin-top: 10%;
+    font-size: 13px;
+    width: 90%;
+    color: white;
+}
+
+#pied-page{
+    display: grid;
+    grid-template-columns: 30% 40% 25%;
+}
+
+.pied-icon{
+    margin-left: 16%;
+}
+
+.logo-pied{
+    display: flex;
+}
+
+
+.pied-icon .icon-sayna{
+    width: 50%;
+}
+
+.icon ul{
+    margin-top: 5%;
+    list-style: none;
+    display: flex;
+    margin-left: -11%;
+}
+.icon ul li{
+    text-align: center;
+    margin-left: 10%;
+}
+.icon img{
+    width: 90%;
+}
+
+.icon img:hover{
+    transform: scale(1.2);
+}
+
+.copyright{
+    font-size: 13px;
+    color: white;
+    margin-top: 10%;
+}
+
+.privacy{
+    width: 40%;
+    margin: 0 auto;
+}
+.privacy ul{
+    list-style: disc;
+    color: white;
+}
+
+.privacy ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.abonner{
+    color: white;
+    text-align: justify;
+}
+
+.abonner p, label{
+    font-size: 12px;
+}
+
+.bouton{
+    background: white;
+    height: 30px;
+    border-radius: 5px;
+}
+.bouton input{
+    width: 65%;
+    height: 30px;
+    background: none;
+    outline: none;
+    border: none;
+    margin-left: 3%;
+}
+
+.bouton button{
+    float: right;
+    height: 30px;
+    border: none;
+    background: orange;
+    padding: 2px 16px 2px 16px;
+    border-radius: 0 5px 5px 0px;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.548);
+}

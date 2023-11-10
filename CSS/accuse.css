@@ -1,0 +1,120 @@
+.zen{
+    font-family: 'zen';
+}
+
+#accuse{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.accuse{
+    width: 90%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    margin-bottom: 10%;
+}
+
+/* Menu sous accueil */
+
+.editer{
+    margin-left: 2%;
+}
+.editer:nth-of-type(1){
+    border-right: 2px solid #28bada;
+    height: 150%;
+}
+
+.editer ul li{
+    padding-top: 10%;
+}
+
+.editer ul{
+    list-style: none;
+}
+
+.editer-photo{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.photo{
+    display: block;
+    justify-content: center;
+}
+
+.photo img{
+    width: 80%;
+}
+.accuse a, label, p{
+    color: white;
+}
+.editer a{
+    text-decoration: none;
+}
+
+.marque a{
+    color: #28bada;
+}
+
+.rot{
+    position: absolute;
+    color: aqua;
+    transform: rotate(90deg);
+    font-size: 25px;
+    font-family: 'roboto';
+    margin-top: -0.5%;
+    margin-left: 6%;
+}
+.contacter p{
+    margin-top: 2%;
+    color: black;
+    background: white;
+    width: 20%;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.contacters{
+    position: absolute;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    width: 55.5%;
+    height: 18%;
+    overflow-y: auto;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    color: #999;
+}
+
+#contact{
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 8px;
+}
+
+#contact .boutons{
+    position: relative;
+    top: 85%;
+    background: #28bada;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+    padding-bottom: 1%;
+}
+#contact > .boutons, button{
+    cursor: pointer;
+}
+.boutons button{
+    background: none;
+    border: none;
+}
+/* .contacters[contenteditable="true"]:empty:before{
+    content: "Arcade";
+} */

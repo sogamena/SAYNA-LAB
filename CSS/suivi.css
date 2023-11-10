@@ -1,0 +1,104 @@
+#vol{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.vol{
+    text-align: center;
+    margin-top: 3%;
+}
+
+/* Style sur contenu en dessous de suivi des vols */
+
+.sous-suivie{
+    /* display: flex;
+    background: green;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 3%;
+}
+
+.sous-gauche{
+    width: 100%;
+}
+
+.sous-gauche input{
+    width: 60%;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.sous-gauche button{
+    background: none;
+    border: 1px solid rgba(22, 15, 6, 0);
+    padding: 1% 5%;
+    margin-left: 3%;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 2px rgb(0, 183, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.sous-droite{
+    float: right;
+    display: flex;
+}
+
+.checkbox{
+    margin-left: 15px;
+    padding-top: 1%;
+}
+
+input[type="radio"]{
+    font-weight: 900;
+}
+
+
+.sous-droite label,.sous-droite input, a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Style fiche */
+
+.fiche{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin-top: 3%;
+    border-bottom: 2px solid salmon;
+    padding-bottom: 1%;
+}
+
+.rempli{
+    border: none;
+    background: white;
+    padding: 0.5% 0;
+}
+
+.date{
+    display: grid;
+    grid-template-columns: 25% 25% 40%;
+    width: 75%;
+    margin-left: 2%;
+}
+
+.action .zen{
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6%;
+}
+
+.heure p{
+    color: black;
+}
