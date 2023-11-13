@@ -2,12 +2,22 @@
     margin: 0 auto;
     width: 90%;
 }
-
+.policy h3{
+    padding-top: 3%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.404);
+}
 .zen{
     color: orange;
     font-family: 'zen';
     padding-bottom: 0.8%;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.404);
+}
+
+.policy{
+    text-align: justify;
+}
+
+.policy h4{
+    padding-top: 2%;
 }
 
 .policy p{
@@ -21,5 +31,14 @@
 
 .petite-liste ul{
     padding-left: 2%;
+    color: white;
+}
+
+.sous-texte{
+    padding-left: 10%;
+}
+
+.sous-texte ul{
+    list-style: none;
     color: white;
 }

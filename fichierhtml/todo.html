@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/todo.css">
-    <title>Accueil</title>
+    <link rel="stylesheet" href="../CSS/accueil.css">
+    <link rel="stylesheet" href="../CSS/accuse.css">
+    <title>Accueil Compte</title>
 </head>
 <body>
     <!-- Entete page -->
-    <header class="accueil">
+    <header class="accueil-compte">
         <!-- Menu page + logo -->
         <nav>
             <div id="nav">
@@ -31,33 +32,81 @@
                 </div>
 
                 <!--Bouton S'inscrire -->
-                <div id="sign">
-                    <div class="sign">
-                        <a href="">SIGN UP</a>
+                <div id="compte">
+                    <div class="compte">
+                        <span>Annette Black</span>
+                        <img src="../illustration/avatar/avatar2.png" alt="">
                     </div>
                 </div>
+            </div>
+            <div class="contenu">
+                <h3 class="zen">
+                    DISCOVERY THE <br> WORLD IN A NEW WAY
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. Nec facilisis 
+                    massa integer molestie arcu dictum amet fermentum. 
+                    Ut  sapien  in  mattis  aliquet  nunc.  Congue  vivamus 
+                    aliquet nec felis fusce. Sit adipiscing adipiscing tortor 
+                    nulla.
+                </p>
             </div>
         </nav>
     </header>
     <!-- Principal page -->
+    
     <main>
-        <div id="todo">
-            <div class="todo1">
-                <h3 class="zen">MES TODO</h3>
-                <div id="todo1">
+        <div id="accuse">
+            <div class="accuse">
+                <div class="editer">
                     <ul>
-                        <li style="color:white">Todo 1</li>
+                        <li class="teste"><a href="../accueilcompte.html">Modifier mon profil</a></li>
+                        <li class="teste marque"><a href="todo.html">MES TODO</a></li>
+                        <li><a href="mesarticle.html">MES ARTICLEE DE BLOG</a></li>
+                        <li><a href="comptecontact.html">CONTACTER L'AGENCE</a></li>
                     </ul>
-                    <a style="text-decoration: none;" href="#">+ New</a>
                 </div>
-            </div>
-            <div class="todo2">
-                <h3 class="zen">TODO 1</h3>
-                <div class="todoajout">
-                    <p>Ajouter un article<p>
-                    <span class="ajoutplus">+</span>
+
+                <div class="editer">
+                    <h3 class="zen marque">Mes ARTICLES</h3>
+                    <table class="tabletodo">
+                        <tr>
+                            <th>NOM</th>
+                            <th class="centre">tâches</th>
+                            <th class="centre">PROGRESSION</th>
+                        </tr>
+                        <tr>
+                            <td>TODO 1</td>
+                            <td class="centre">2</td>
+                            <td>0 %</td>
+                        </tr>
+
+                        <tr>
+                            <td>TODO 2</td>
+                            <td class="centre">3</td>
+                            <td>25 %</td>
+                        </tr>
+                       
+                        <tr>
+                            <td>TODO 3</td>
+                            <td class="centre">5</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td>TODO 4</td>
+                            <td class="centre">5</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td>TODO 5</td>
+                            <td class="centre">5</td>
+                            <td>100%</td>
+                        </tr>
+                    </table>
+                    <span class="todo"><u>Télécharger en version PDF</u></span>
                 </div>
-            </div>
         </div>
     </main>
 
@@ -65,6 +114,9 @@
     <footer>
         <!-- contenue sur pied page -->
         <div class="ligne"></div>
+        <div class="arrowup">
+            <img src="../illustration/logo/Fleche_up.png" alt="">
+        </div>
         <div id="pied-page">
             <div class="pied-icon">
                 <div class="logo-pied">

@@ -1,0 +1,64 @@
+#todo{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin-top: 3%;
+    padding-bottom: 35%;
+}
+
+.zen{
+    font-family: 'zen';
+    font-weight: 100;
+    color: white;
+}
+
+.todo1{
+    width: 80%;
+    text-align: center;
+}
+
+
+.todo1 h3{
+    border-bottom: 1px solid orange;
+    padding-bottom: 2%;
+
+}
+
+#todo1{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 30%;
+}
+#todo1 ul{
+    list-style-position: inside;
+}
+
+.todo2{
+    text-align: center;
+    padding-bottom: 4%;
+    border-bottom: 1px solid #28bada;;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.todo2 h3{
+    padding-top: 2%;
+}
+
+.todoajout{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.ajoutplus{
+    position: absolute;
+    background: #28bada;
+    padding: 3px 18px;
+    font-size: 30px;
+    right: 14%;
+    margin-top: -1%;
+}

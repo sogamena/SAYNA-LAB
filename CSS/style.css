@@ -48,7 +48,11 @@ body{
     font-family: 'zen';
     padding-top: 2%;
     font-size: 14px;
-    color: antiquewhite;
+    color: white;
+}
+
+.menu-cache{
+    display: none;
 }
 
 .accueil-menu{
@@ -341,4 +345,91 @@ body{
 
 ::placeholder{
     color: rgba(0, 0, 0, 0.548);
+}
+
+
+@media screen and (max-width:1220px) {
+    #nav{
+        display: grid;
+        grid-template-columns: 50% 50;
+        margin: 0 5%;
+        padding-top: 2%;
+    }
+
+    .accueil-logo{
+        background: red;
+    }
+
+    .accueil-logo img{
+        width: 100%;
+    }
+    .logo img{
+        width: 80px;
+    }
+
+    .menu-cache{
+        display: block;
+    }
+
+    .label img{
+        top: 4%;
+        width: 30px;
+        position: absolute;
+        right: 4%;
+        z-index: 3;
+    }
+    .input{
+        width: 15%;
+        margin-left: 15%;
+        display: none;
+    }
+
+    .input{
+        width: 15%;
+        margin-left: 15%;
+        display: none;
+    }
+    .accueil-menu ul{
+        background: #28bada;
+        text-align: left;
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        opacity: 0;
+        right: -237px;
+        top: -2%;
+        display: block;
+        padding-top: 15%;
+        padding-left: 5%;
+        transition: 0.6s all;
+        z-index: 2;
+    }
+
+    .accueil-menu ul li{
+        border-bottom: 2px solid orange;
+        padding: 5% 0;
+        width: 60%;
+        color: aqua;
+    }
+
+
+    input[type=checkbox]:checked + .accueil-menu ul{
+        opacity: 1;
+        right: -5%;
+    }
+
+
+    #sign{
+        position: absolute;
+        right: 10%;
+        top: 4%;
+        z-index: 0;
+    }
+    #sign .sign a{
+        background: orange;
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 12px;
+        font-family: 'Verdana';
+    }
 }

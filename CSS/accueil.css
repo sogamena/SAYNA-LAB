@@ -58,7 +58,7 @@
     margin-left: 2%;
 }
 .editer:nth-of-type(1){
-    border-right: 2px solid #28bada;
+    border-right: 1px solid #28bada;
     height: 50%;
 }
 
@@ -129,4 +129,41 @@ input{
     border-radius: 8px;
 }
 
+table{
+    width: 80%;
+}
 
+th{
+    text-align: left;
+    color: #28bada;
+    font-weight: 100;
+}
+td, .article, .todo{
+    color: white;
+}
+
+.todo{
+    position: absolute;
+    right: 0;
+}
+
+table, td,th{
+    border-collapse: collapse;
+}
+td, th{
+    height: 40px;
+}
+td:nth-of-type(3),td:nth-of-type(4), .centre{
+    text-align: center;
+}
+
+.article{
+    border: 2px solid #28bada;
+    padding: 0.5% 1%;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width:1280px){
+    
+}
