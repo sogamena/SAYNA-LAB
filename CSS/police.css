@@ -1,0 +1,25 @@
+#policy{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.zen{
+    color: orange;
+    font-family: 'zen';
+    padding-bottom: 0.8%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.404);
+}
+
+.policy p{
+    color: white;
+    padding-top: 2%;
+}
+
+.blue{
+    color: #28bada;
+}
+
+.petite-liste ul{
+    padding-left: 2%;
+    color: white;
+}
