@@ -164,6 +164,11 @@ td:nth-of-type(3),td:nth-of-type(4), .centre{
 }
 
 
-@media screen and (max-width:1280px){
-    
+@media screen and (max-width:1220px){
+    #compte{
+        width: 8%;
+        right: 10%;
+        margin-top: 0.3%;
+        position: absolute;
+    }
 }

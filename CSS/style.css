@@ -133,7 +133,7 @@ body{
 
 #best .best-imgfond{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .fond{
@@ -168,11 +168,17 @@ body{
     padding-left: 10%;
 }
 .plus{
-    background: white;
     width: 80%;
-    margin-left: 10%;
-    margin-top: 100%;
     text-align: center;
+    margin-left: 0%;
+}
+
+.plus a{
+    position: absolute;
+    background: white;
+    padding: 1% 4%;
+    margin-left: -6.2%;
+    margin-top: 18%;
 }
 
 .best{
@@ -351,17 +357,13 @@ body{
 @media screen and (max-width:1220px) {
     #nav{
         display: grid;
-        grid-template-columns: 50% 50;
+        grid-template-columns: 60% 30%;
         margin: 0 5%;
         padding-top: 2%;
     }
 
-    .accueil-logo{
-        background: red;
-    }
-
     .accueil-logo img{
-        width: 100%;
+        width: 50%;
     }
     .logo img{
         width: 80px;
@@ -374,7 +376,7 @@ body{
     .label img{
         top: 4%;
         width: 30px;
-        position: absolute;
+        position: fixed;
         right: 4%;
         z-index: 3;
     }
@@ -426,10 +428,43 @@ body{
         z-index: 0;
     }
     #sign .sign a{
-        background: orange;
         padding: 10px;
         border-radius: 8px;
         font-size: 12px;
-        font-family: 'Verdana';
+        font-family: 'roboto';
     }
+
+    #new{
+        grid-template-columns: 100%;
+        margin-top: 3%;
+    }
+
+    .new:nth-of-type(2){
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 3%;
+        font-weight: 100;
+    }
+
+    #best{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 2%;
+        background: orange;
+        padding: 4% 0;
+    }
+    
+    #best .best-imgfond{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 94%;
+    }
+
+    .best:nth-of-type(2){
+        width: 90%;
+        margin: 0 5%;
+        margin-top: 3%;
+    }
+    
+    
 }
